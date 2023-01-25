@@ -16,7 +16,7 @@ module.exports = NodeHelper.create({
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
-				Authorization: "Bearer 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"
+				Authorization: "Bearer API_KEY"
 			},
 			body: JSON.stringify({
 				model: "text-davinci-003",
